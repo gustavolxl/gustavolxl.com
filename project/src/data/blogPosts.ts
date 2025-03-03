@@ -44,7 +44,7 @@ export const blogPosts: BlogPost[] = [
       },
       {
         type: 'heading',
-        content: 'Como estabelecer o hábito'
+        content: 'Como estabelecer o hábito!'
       },
       {
         type: 'text',
