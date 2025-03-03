@@ -42,25 +42,14 @@ const Home = () => {
       className="container mx-auto px-4 py-16 md:py-24"
     >
       <div className="max-w-3xl mx-auto">
-        <motion.div 
-          className="mb-8 overflow-hidden rounded-full w-32 h-32 mx-auto"
-          variants={itemVariants}
-        >
-          <img 
-            src="https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=300&q=80" 
-            alt="Gustavo Lopes" 
-            className="w-full h-full object-cover"
-          />
-        </motion.div>
-        
-        <motion.h1 
+        <motion.h1
           className="text-4xl md:text-5xl font-serif font-bold text-center text-[#3d3d3d] mb-6"
           variants={itemVariants}
         >
           Gustavo Lopes
         </motion.h1>
-        
-        <motion.div 
+
+        <motion.div
           className="flex justify-center space-x-4 mb-8"
           variants={itemVariants}
         >
@@ -79,8 +68,8 @@ const Home = () => {
             </motion.a>
           ))}
         </motion.div>
-        
-        <motion.div 
+
+        <motion.div
           className="prose prose-lg max-w-none text-center mb-12"
           variants={itemVariants}
         >
@@ -88,8 +77,8 @@ const Home = () => {
             Olá! Sou um entusiasta da tecnologia, literatura e filosofia. Através deste espaço, compartilho reflexões sobre temas que me fascinam, desde desenvolvimento de software até análises literárias. Acredito no poder transformador das ideias e na importância de cultivar um pensamento crítico e criativo.
           </p>
         </motion.div>
-        
-        <motion.div 
+
+        <motion.div
           className="flex flex-col md:flex-row justify-center space-y-4 md:space-y-0 md:space-x-6"
           variants={itemVariants}
         >
@@ -104,7 +93,7 @@ const Home = () => {
               <ArrowRight size={18} />
             </motion.button>
           </Link>
-          
+
           <Link to="/book-reviews">
             <motion.button
               className="w-full md:w-auto px-6 py-3 bg-transparent border border-[#a67c52] text-[#a67c52] rounded-md font-medium flex items-center justify-center space-x-2 hover:bg-[#f0e9e2] transition-colors"
